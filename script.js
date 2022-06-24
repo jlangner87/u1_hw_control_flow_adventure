@@ -52,6 +52,8 @@ if (firstChoice === 'Vecna') {
       `That was not an option. Vecna made you into a human pretzel! The game will now restart.`
     )
     location.reload()
+    //I found the location.reoad command on W3. I didn't know if it would work... It did!
+    //source https://www.w3schools.com/jsref/met_loc_reload.asp
   }
 } else if (firstChoice === 'Russians') {
   const partnerRussia = prompt(
@@ -103,7 +105,6 @@ if (firstChoice === 'Vecna') {
     }
   }
 }
-
 const playAgain = prompt(`Do you want to play again?`)
 if (playAgain === 'Yes') {
   location.reload()
